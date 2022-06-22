@@ -1,6 +1,6 @@
 /* ==================== typing animation ==================== */
 var typed = new Typed(".typing", {
-    strings: ["", "English Edu.", "Mathematic Edu.", "Civi Engineering Edu.", "Information and Computer Eng. Edu."],
+    strings: ["", "English Edu.", "Mathematic Edu.", "Civil Engineering Edu.", "Information and Computer Eng. Edu."],
     typeSpeed: 100,
     BackSpeed: 60,
     loop: true

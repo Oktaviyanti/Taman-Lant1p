@@ -1,12 +1,12 @@
 /* ==================== typing animation ==================== */
 var typed = new Typed(".typing", {
-    strings: ["", "English Edu.", "Mathematic Edu.", "Building Engineering Edu.", "Information and Computer Eng. Edu."],
+    strings: ["", "English Edu.", "Mathematic Edu.", "Civil Engineering Edu.", "Information and Computer Eng. Edu."],
     typeSpeed: 100,
     BackSpeed: 60,
     loop: true
 })
 var typed = new Typed(".tiping", {
-    strings: ["", "English Edu.", "Mathematic Edu.", "Building Engineering Edu.", "Information and Computer Eng. Edu."],
+    strings: ["", "English Edu.", "Mathematic Edu.", "Civil Engineering Edu.", "Information and Computer Eng. Edu."],
     typeSpeed: 100,
     BackSpeed: 60,
     loop: true

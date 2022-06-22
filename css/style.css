@@ -664,13 +664,19 @@ h3.my-profession {
 }
 
 @media (max-width:991px) {
-    .home .home-info {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-
-    .home .home-img {
+    .home-img::after {
         display: none;
+    }
+    
+    .home-img::before {
+        display: none;
+    }
+    .home .home-img {
+        right: 50px;
+    }
+    .home .home-img img {
+        border-radius: 5px;
+        height: 350px;
     }
 
     .members .member-item,

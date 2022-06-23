@@ -345,10 +345,7 @@ h3.my-profession {
     position: relative;
 }
 .home-info img {
-    height: 400px;
-    width: 300px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    display: none;
 }
 
 .home-img::after {
@@ -676,6 +673,13 @@ h3.my-profession {
     .home .home-info {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    .home-info img {
+        display: flex;
+        height: 400px;
+        width: 300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     
     .home-img::before {

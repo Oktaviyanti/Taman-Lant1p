@@ -344,6 +344,12 @@ h3.my-profession {
     text-align: center;
     position: relative;
 }
+.home-info img {
+    height: 400px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .home-img::after {
     content: '';
@@ -667,12 +673,16 @@ h3.my-profession {
     .home-img::after {
         display: none;
     }
+    .home .home-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
     
     .home-img::before {
         display: none;
     }
     .home .home-img {
-        right: 50px;
+        display: none;
     }
     .home .home-img img {
         border-radius: 5px;
